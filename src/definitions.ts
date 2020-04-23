@@ -1,4 +1,4 @@
-import {PluginListenerHandle} from '@capacitor/core';
+import { PluginListenerHandle } from '@capacitor/core';
 
 declare module "@capacitor/core" {
     interface PluginRegistry {
@@ -37,7 +37,7 @@ export interface IUdpPlugin {
 
     getJoinedGroups(): Promise<{ groups: [string] }>;
 
-    addListener(events: "receive", functions: (params: { socketId: number, buffer: string }) => void): PluginListenerHandle;
+    addListener(events: "receive", functions: (params: { socketId: number, buffer: string, remotePort: number, remoteAddress: string }) => void): PluginListenerHandle;
 
     addListener(events: "receiveError", functions: (params: string) => void): PluginListenerHandle;
 }

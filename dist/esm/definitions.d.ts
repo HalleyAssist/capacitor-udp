@@ -87,6 +87,8 @@ export interface IUdpPlugin {
     addListener(events: "receive", functions: (params: {
         socketId: number;
         buffer: string;
+        remotePort: number;
+        remoteAddress: string;
     }) => void): PluginListenerHandle;
     addListener(events: "receiveError", functions: (params: string) => void): PluginListenerHandle;
 }
