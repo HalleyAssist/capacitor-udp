@@ -14,11 +14,11 @@
   "author": "Zhongkai Chen",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "^1.5.1"
+    "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "@capacitor/android": "^1.5.1",
-    "@capacitor/ios": "^1.5.1",
+    "@capacitor/android": "latest",
+    "@capacitor/ios": "latest",
     "typescript": "^3.8.3"
   },
   "files": [
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unitree-czk/capacitor-udp"
+    "url": "https://github.com/halleyassist/capacitor-udp"
   },
   "bugs": {
-    "url": "https://github.com/unitree-czk/capacitor-udp/issues"
+    "url": "https://github.com/halleyassist/capacitor-udp/issues"
   }
 }
