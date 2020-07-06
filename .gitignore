@@ -1,4 +1,10 @@
-
+.vscode/
 node_modules/
 
 android/build/
+
+android/.gradle/
+android/.idea/
+
+ios/Pods/
+ios/Podfile.lock
