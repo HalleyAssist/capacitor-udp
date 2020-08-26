@@ -1,6 +1,6 @@
 {
   "name": "capacitor-udp",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "udp plugin",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -14,12 +14,12 @@
   "author": "Zhongkai Chen",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "^2.2.1"
+    "@capacitor/core": "^2.4.0"
   },
   "devDependencies": {
-    "@capacitor/android": "^2.2.1",
-    "@capacitor/ios": "^2.2.1",
-    "typescript": "^3.9.6"
+    "@capacitor/android": "^2.4.0",
+    "@capacitor/ios": "^2.4.0",
+    "typescript": "^3.9.7"
   },
   "files": [
     "dist/",
